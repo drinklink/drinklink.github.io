@@ -82,7 +82,7 @@
             setMarkers(storeLocations);
           }
         };
-        xhttp.open("GET","/places.json",true);
+        xhttp.open("GET","/places-2016.json",true);
         xhttp.send();
       }
 

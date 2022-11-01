@@ -34,12 +34,12 @@
             var introel=document.getElementById('intro');
             introel.parentNode.removeChild(introel);
             document.getElementsByTagName("body")[0].setAttribute("class","loaded");
-        },3000);
+        },1000);
 
       setTimeout(function(){
             var wrapper=document.getElementById('loader-wrapper');
             wrapper.parentNode.removeChild(wrapper);
-        },4000);
+        },2000);
 
       }
 
